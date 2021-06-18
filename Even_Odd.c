@@ -10,7 +10,6 @@ Program Details: Even or Odd
 **************************************************************************/
 
 
-#include<stdio.h>
 int main()
 {
     int num;
