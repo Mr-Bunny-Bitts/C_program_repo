@@ -1,11 +1,4 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Compilation') {
-            steps {
-                echo 'Even_Odd'
-                    int main()
+int main()
                     {
                          int num=9;
     
@@ -15,10 +8,3 @@ pipeline {
                                printf("%d is Odd",num);
                         return 0;
                     }
-                
-            }
-        }
-    }
-}
-
-
