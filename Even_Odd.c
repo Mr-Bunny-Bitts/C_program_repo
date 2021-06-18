@@ -12,9 +12,8 @@ Program Details: Even or Odd
 
 int main()
 {
-    int num;
-    printf("Enter Number you want to check Even or Odd:");
-    scanf("%d",&num);
+    int num=9;
+    
     if(num%2==0)
         printf("%d is Even",num);
     else
