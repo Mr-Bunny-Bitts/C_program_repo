@@ -1,10 +1,11 @@
+#include<iostream>
+using namespace std;
 int main()
-                    {
-                         int num=9;
-    
-                        if(num%2==0)
-                             printf("%d is Even",num);
-                        else
-                               printf("%d is Odd",num);
-                        return 0;
-                    }
+{
+    int num=2;
+    if(num%2==0)
+        cout << "Even";
+    else
+        cout << "Odd";
+    return 0;
+}
